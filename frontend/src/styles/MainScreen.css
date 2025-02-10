@@ -1,0 +1,452 @@
+/* Basic reset and body styling */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+}
+
+.simulator-container {
+    padding: 1rem;
+    background-color: #000;
+    min-height: 100vh;
+    color: #0f0;
+    box-shadow: 0 0 10px #0f0;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #1f2937;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+/* Main Content Layout */
+.main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* Use flex on larger screens to align items side by side */
+@media (min-width: 1024px) {
+    .main-content {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+/* Visualization (Graph) Section */
+.visualization {
+    flex: 1;
+    background-color: #000;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    color: #0f0;
+    box-shadow: 0 0 10px #0f0;
+}
+
+/* Control Panel Section */
+.control-panel {
+    flex: 1;
+    background-color: #000;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    max-height: 100vh;
+    overflow-y: auto;
+    color: #0f0;
+    box-shadow: 0 0 10px #0f0;
+}
+
+/* Slider Group Styling */
+.slider-groups {
+    margin-top: 1rem;
+}
+
+.slider-group {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Buttons */
+.button-group {
+    display: flex;
+    gap: 1rem;
+}
+
+button {
+    flex: 1;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #000;
+    color: #0f0;
+    box-shadow: 0 0 10px #0f0;
+}
+
+button:hover {
+    opacity: 0.9;
+    background-color: #0f0;
+    color: #000;
+}
+
+button:disabled {
+    background-color: #555;
+    color: #999;
+    box-shadow: none;
+}
+
+/* Styles for individual UI elements in the Graph Section */
+.ui-elements {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.ui-element {
+    padding: 0.75rem 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* Graph container */
+.graph-container {
+    width: 100%;
+    height: 100%;
+}
+
+/* Visualization tweaks for responsiveness */
+@media (max-width: 1023px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .visualization, .control-panel {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+/* Additional styles */
+.text-blue-800 {
+    color: #0ff;
+    text-shadow: 0 0 5px #0ff;
+}
+
+.text-green-800 {
+    color: #0f0;
+    text-shadow: 0 0 5px #0f0;
+}
+
+.text-red-800 {
+    color: #f00;
+    text-shadow: 0 0 5px #f00;
+}
+
+.bg-blue-100 {
+    background-color: rgba(0, 255, 255, 0.1);
+    box-shadow: 0 0 10px #0ff;
+}
+
+.bg-green-100 {
+    background-color: rgba(0, 255, 0, 0.1);
+    box-shadow: 0 0 10px #0f0;
+}
+
+.bg-red-100 {
+    background-color: rgba(255, 0, 0, 0.1);
+    box-shadow: 0 0 10px #f00;
+}
+
+.bg-gray-100 {
+    background-color: #000;
+}
+
+.bg-white {
+    background-color: #000;
+    color: #0f0;
+    box-shadow: 0 0 10px #0f0;
+}
+
+.bg-gray-50 {
+    background-color: #000;
+    border: 1px solid #0f0;
+}
+
+.border-gray-200 {
+    border-color: #0f0;
+}
+
+.slider {
+    background: linear-gradient(90deg, #0ff 0%, #0f0 50%, #f00 100%);
+    box-shadow: 0 0 10px #0ff;
+}
+
+.slider::-webkit-slider-thumb {
+    background-color: #fff;
+    box-shadow: 0 0 10px #fff;
+}
+
+.slider::-moz-range-thumb {
+    background-color: #fff;
+    box-shadow: 0 0 10px #fff;
+}
+
+.alert {
+    background-color: rgba(255, 0, 0, 0.1);
+    color: #f00;
+    box-shadow: 0 0 10px #f00;
+}
+
+.alert .font-medium {
+    color: #f00;
+    text-shadow: 0 0 5px #f00;
+}
+
+.alert .text-sm {
+    color: #f00;
+    text-shadow: 0 0 5px #f00;
+}
+
+/* Additional styles for simulation controls */
+.simulation-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.simulation-year, .predicted-co2 {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.slider-control {
+    margin-bottom: 1rem;
+}
+
+.slider {
+    width: 100%;
+    height: 0.5rem;
+    background: linear-gradient(90deg, #0ff 0%, #0f0 50%, #f00 100%);
+    border-radius: 0.25rem;
+    appearance: none;
+    cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+    width: 1rem;
+    height: 1rem;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #fff;
+    appearance: none;
+}
+
+.slider::-moz-range-thumb {
+    width: 1rem;
+    height: 1rem;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 10px #fff;
+}
+
+/* Additional styles for error message alert */
+.bg-red-100 {
+    background-color: rgba(255, 0, 0, 0.1);
+    border: 1px solid #f00;
+    color: #f00;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.bg-red-100 .text-red-700 {
+    color: #f00;
+}
+
+.bg-red-100 .border-red-400 {
+    border-color: #f00;
+}
+
+/* Additional styles for buttons */
+.bg-blue-500 {
+    background-color: #0000ff;
+}
+
+.bg-blue-600 {
+    background-color: #0000cc;
+}
+
+.bg-gray-500 {
+    background-color: #555;
+}
+
+.bg-gray-600 {
+    background-color: #444;
+}
+
+.bg-green-500 {
+    background-color: #00ff00;
+}
+
+.bg-green-600 {
+    background-color: #00cc00;
+}
+
+.bg-yellow-500 {
+    background-color: #ffff00;
+}
+
+.bg-yellow-600 {
+    background-color: #cccc00;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+/* Existing styles remain the same, adding new classes */
+
+/* Suggestion Card Styles */
+.suggestion-card {
+    transition: all 0.3s ease;
+    border: 1px solid #0f0;
+}
+
+.suggestion-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 15px #0f0;
+}
+
+/* Simulation Controls Specific Styles */
+.simulation-controls {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.simulation-year, 
+.predicted-co2 {
+    font-size: 1.125rem;
+    font-weight: 600;
+    color: #0f0;
+    text-shadow: 0 0 5px #0f0;
+}
+
+/* Additional Error Alert Styling */
+.error-alert {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 0, 0, 0.1);
+    border: 1px solid #f00;
+    color: #f00;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0 10px #f00;
+}
+
+.error-alert-icon {
+    margin-right: 0.5rem;
+    color: #f00;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .simulation-controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .simulation-year, 
+    .predicted-co2 {
+        text-align: center;
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Suggestions Section Enhancements */
+.suggestions-container {
+    background-color: #000;
+    border: 1px solid #0f0;
+    box-shadow: 0 0 15px #0f0;
+}
+
+.suggestions-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+    color: #0f0;
+    text-shadow: 0 0 5px #0f0;
+}
+
+.suggestions-empty-state {
+    text-align: center;
+    padding: 2rem;
+    color: #0f0;
+    opacity: 0.7;
+}
+
+/* Button States */
+.btn-loading {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.btn-loading:hover {
+    opacity: 0.7;
+}
+
+/* Accessibility and Focus States */
+button:focus {
+    outline: 2px solid #0f0;
+    outline-offset: 2px;
+}
+
+input[type="range"]:focus {
+    outline: 2px solid #0f0;
+}
+
+/* Typography Enhancements */
+.text-highlight {
+    color: #0ff;
+    text-shadow: 0 0 5px #0ff;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.fade-in {
+    animation: fadeIn 0.5s ease-out;
+}

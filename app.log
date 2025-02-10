@@ -1,0 +1,350 @@
+2024-11-21 04:14:48,072 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.191.13.6:5000
+2024-11-21 04:14:48,072 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-21 04:14:48,106 - INFO - 127.0.0.1 - - [21/Nov/2024 04:14:48] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 04:14:48,106 - INFO - 127.0.0.1 - - [21/Nov/2024 04:14:48] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:14:48,591 - INFO - 127.0.0.1 - - [21/Nov/2024 04:14:48] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:14:49,606 - INFO - 127.0.0.1 - - [21/Nov/2024 04:14:49] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:14:50,608 - INFO - 127.0.0.1 - - [21/Nov/2024 04:14:50] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:14:51,592 - INFO - 127.0.0.1 - - [21/Nov/2024 04:14:51] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:14:52,594 - INFO - 127.0.0.1 - - [21/Nov/2024 04:14:52] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:14:53,594 - INFO - 127.0.0.1 - - [21/Nov/2024 04:14:53] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 04:14:53,597 - INFO - 127.0.0.1 - - [21/Nov/2024 04:14:53] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:14:54,603 - INFO - 127.0.0.1 - - [21/Nov/2024 04:14:54] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:14:55,595 - INFO - 127.0.0.1 - - [21/Nov/2024 04:14:55] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:14:56,590 - INFO - 127.0.0.1 - - [21/Nov/2024 04:14:56] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:14:57,590 - INFO - 127.0.0.1 - - [21/Nov/2024 04:14:57] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:14:58,608 - INFO - 127.0.0.1 - - [21/Nov/2024 04:14:58] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 04:14:58,608 - INFO - 127.0.0.1 - - [21/Nov/2024 04:14:58] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:14:59,609 - INFO - 127.0.0.1 - - [21/Nov/2024 04:14:59] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:15:00,592 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:00] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:15:01,592 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:01] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:15:02,600 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:02] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:15:03,595 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:03] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:15:07,930 - INFO - Model loaded successfully
+2024-11-21 04:15:07,982 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.191.13.6:5000
+2024-11-21 04:15:07,983 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-21 04:15:07,988 - INFO -  * Restarting with stat
+2024-11-21 04:15:10,625 - INFO - Model loaded successfully
+2024-11-21 04:15:10,645 - WARNING -  * Debugger is active!
+2024-11-21 04:15:10,661 - INFO -  * Debugger PIN: 122-947-721
+2024-11-21 04:15:11,623 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:11] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 04:15:11,642 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:11] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 04:15:11,650 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:11] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 04:15:11,652 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:11] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 04:15:11,657 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:11] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 04:15:11,663 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 04:15:11,666 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:11] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:15:11,669 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 04:15:11,674 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 04:15:11,676 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:11] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:15:11,676 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:11] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:15:11,676 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 04:15:11,676 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:11] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:15:11,685 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 04:15:11,688 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:11] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:15:12,613 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 04:15:12,615 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:12] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:15:13,596 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 04:15:13,596 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:13] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:15:14,592 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 04:15:14,592 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:14] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:15:15,607 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 04:15:15,607 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:15] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:15:16,601 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 04:15:16,601 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:16] "POST /predict HTTP/1.1" 200 -
+2024-11-21 04:15:17,608 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:17] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 04:15:17,613 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 04:15:17,616 - INFO - 127.0.0.1 - - [21/Nov/2024 04:15:17] "POST /predict HTTP/1.1" 200 -
+2024-11-21 09:29:54,507 - INFO - Model loaded successfully
+2024-11-21 09:29:54,617 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.191.13.6:5000
+2024-11-21 09:29:54,619 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-21 09:29:54,626 - INFO -  * Restarting with stat
+2024-11-21 09:29:59,596 - INFO - Model loaded successfully
+2024-11-21 09:29:59,643 - WARNING -  * Debugger is active!
+2024-11-21 09:29:59,662 - INFO -  * Debugger PIN: 122-947-721
+2024-11-21 09:30:18,185 - INFO - 127.0.0.1 - - [21/Nov/2024 09:30:18] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 09:30:18,200 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 09:30:18,201 - INFO - 127.0.0.1 - - [21/Nov/2024 09:30:18] "POST /predict HTTP/1.1" 200 -
+2024-11-21 09:30:18,218 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 09:30:18,222 - INFO - 127.0.0.1 - - [21/Nov/2024 09:30:18] "POST /predict HTTP/1.1" 200 -
+2024-11-21 09:30:18,259 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 09:30:18,261 - INFO - 127.0.0.1 - - [21/Nov/2024 09:30:18] "POST /predict HTTP/1.1" 200 -
+2024-11-21 09:30:18,289 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 09:30:18,290 - INFO - 127.0.0.1 - - [21/Nov/2024 09:30:18] "POST /predict HTTP/1.1" 200 -
+2024-11-21 09:30:18,412 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 09:30:18,413 - INFO - 127.0.0.1 - - [21/Nov/2024 09:30:18] "POST /predict HTTP/1.1" 200 -
+2024-11-21 09:30:57,851 - INFO - 127.0.0.1 - - [21/Nov/2024 09:30:57] "[31m[1mGET /predict HTTP/1.1[0m" 405 -
+2024-11-21 09:30:59,729 - INFO - 127.0.0.1 - - [21/Nov/2024 09:30:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2024-11-21 09:43:16,319 - INFO - 127.0.0.1 - - [21/Nov/2024 09:43:16] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 09:43:16,352 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 09:43:16,353 - INFO - 127.0.0.1 - - [21/Nov/2024 09:43:16] "POST /predict HTTP/1.1" 200 -
+2024-11-21 09:43:16,468 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 09:43:16,469 - INFO - 127.0.0.1 - - [21/Nov/2024 09:43:16] "POST /predict HTTP/1.1" 200 -
+2024-11-21 09:43:16,511 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 09:43:16,513 - INFO - 127.0.0.1 - - [21/Nov/2024 09:43:16] "POST /predict HTTP/1.1" 200 -
+2024-11-21 09:43:16,527 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 09:43:16,528 - INFO - 127.0.0.1 - - [21/Nov/2024 09:43:16] "POST /predict HTTP/1.1" 200 -
+2024-11-21 09:43:16,558 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 09:43:16,558 - INFO - 127.0.0.1 - - [21/Nov/2024 09:43:16] "POST /predict HTTP/1.1" 200 -
+2024-11-21 09:59:53,273 - INFO - Model loaded successfully
+2024-11-21 09:59:53,363 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://172.191.13.6:5000
+2024-11-21 09:59:53,365 - INFO - [33mPress CTRL+C to quit[0m
+2024-11-21 09:59:53,369 - INFO -  * Restarting with stat
+2024-11-21 09:59:56,281 - INFO - Model loaded successfully
+2024-11-21 09:59:56,304 - WARNING -  * Debugger is active!
+2024-11-21 09:59:56,317 - INFO -  * Debugger PIN: 122-947-721
+2024-11-21 10:00:09,640 - INFO - 127.0.0.1 - - [21/Nov/2024 10:00:09] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 10:00:09,646 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:00:09,647 - INFO - 127.0.0.1 - - [21/Nov/2024 10:00:09] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:00:09,695 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:00:09,695 - INFO - 127.0.0.1 - - [21/Nov/2024 10:00:09] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:18,618 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:18] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 10:01:18,623 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:18,625 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:18] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:18,642 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:18,642 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:18] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:18,660 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:18,660 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:18] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:18,681 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:18,682 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:18] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:18,717 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:18,718 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:18] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:18,733 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:18,734 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:18] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:18,753 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:18,754 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:18] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:18,767 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:18,769 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:18] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:18,787 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:18,788 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:18] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:18,809 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:18,814 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:18] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:18,861 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:18,862 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:18] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:51,491 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:51] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 10:01:51,498 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:51,499 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:51] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:51,518 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:51,519 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:51] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:51,545 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:51,547 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:51] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:51,572 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:51,574 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:51] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:51,593 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:51,595 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:51] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:51,620 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:51,621 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:51] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:01:51,660 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:01:51,661 - INFO - 127.0.0.1 - - [21/Nov/2024 10:01:51] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:13:19,183 - INFO -  * Detected change in 'E:\\Ecometer_backend\\EcometerProject\\main.py', reloading
+2024-11-21 10:13:19,820 - INFO -  * Restarting with stat
+2024-11-21 10:13:24,637 - INFO - Model loaded successfully
+2024-11-21 10:13:24,707 - WARNING -  * Debugger is active!
+2024-11-21 10:13:24,726 - INFO -  * Debugger PIN: 122-947-721
+2024-11-21 10:14:19,143 - INFO - 127.0.0.1 - - [21/Nov/2024 10:14:19] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 10:14:19,151 - ERROR - Unexpected error in prediction: X has 7 features, but SVR is expecting 8 features as input.
+2024-11-21 10:14:19,155 - INFO - 127.0.0.1 - - [21/Nov/2024 10:14:19] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-11-21 10:14:57,691 - INFO -  * Detected change in 'E:\\Ecometer_backend\\EcometerProject\\main.py', reloading
+2024-11-21 10:14:58,071 - INFO -  * Restarting with stat
+2024-11-21 10:15:01,729 - INFO - Model loaded successfully
+2024-11-21 10:15:01,780 - WARNING -  * Debugger is active!
+2024-11-21 10:15:01,805 - INFO -  * Debugger PIN: 122-947-721
+2024-11-21 10:15:07,310 - INFO - 127.0.0.1 - - [21/Nov/2024 10:15:07] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 10:15:07,322 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:15:07,323 - INFO - 127.0.0.1 - - [21/Nov/2024 10:15:07] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:16:40,391 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:40] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 10:16:40,399 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:16:40,399 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:40] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:16:40,427 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:16:40,429 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:40] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:16:40,454 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:16:40,455 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:40] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:16:40,473 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:16:40,475 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:40] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:16:40,494 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:16:40,496 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:40] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:16:40,518 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:16:40,519 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:40] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:16:40,535 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:16:40,537 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:40] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:16:40,560 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:16:40,561 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:40] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:16:40,580 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:16:40,581 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:40] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:16:40,601 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:16:40,603 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:40] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:16:46,766 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:46] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 10:16:46,772 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:16:46,773 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:46] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:16:46,787 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:16:46,787 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:46] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:16:46,808 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:16:46,808 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:46] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:16:46,837 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:16:46,838 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:46] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:16:46,913 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:16:46,914 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:46] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:16:46,972 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:16:46,972 - INFO - 127.0.0.1 - - [21/Nov/2024 10:16:46] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:31:04,080 - INFO -  * Detected change in 'E:\\Ecometer_backend\\EcometerProject\\main.py', reloading
+2024-11-21 10:31:04,580 - INFO -  * Restarting with stat
+2024-11-21 10:31:07,532 - INFO - Model loaded successfully
+2024-11-21 10:31:07,554 - WARNING -  * Debugger is active!
+2024-11-21 10:31:07,564 - INFO -  * Debugger PIN: 122-947-721
+2024-11-21 10:31:28,741 - INFO - 127.0.0.1 - - [21/Nov/2024 10:31:28] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 10:31:28,746 - ERROR - Unexpected error in prediction: X has 7 features, but SVR is expecting 8 features as input.
+2024-11-21 10:31:28,747 - INFO - 127.0.0.1 - - [21/Nov/2024 10:31:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-11-21 10:31:28,753 - ERROR - Unexpected error in prediction: X has 7 features, but SVR is expecting 8 features as input.
+2024-11-21 10:31:28,754 - INFO - 127.0.0.1 - - [21/Nov/2024 10:31:28] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-11-21 10:36:10,463 - INFO -  * Detected change in 'E:\\Ecometer_backend\\EcometerProject\\main.py', reloading
+2024-11-21 10:36:10,736 - INFO -  * Restarting with stat
+2024-11-21 10:36:13,456 - INFO - Model loaded successfully
+2024-11-21 10:36:13,479 - WARNING -  * Debugger is active!
+2024-11-21 10:36:13,491 - INFO -  * Debugger PIN: 122-947-721
+2024-11-21 10:36:21,937 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:21] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 10:36:21,950 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:36:21,951 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:21] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:36:21,963 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:36:21,964 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:21] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:36:22,020 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:36:22,020 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:22] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:36:22,060 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:36:22,061 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:22] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:36:28,953 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:28] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 10:36:28,960 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:36:28,961 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:28] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:36:28,979 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:36:28,982 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:28] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:36:29,019 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:36:29,023 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:29] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:36:29,040 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:36:29,042 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:29] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:36:29,055 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:36:29,057 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:29] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:36:29,085 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:36:29,085 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:29] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:36:29,109 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:36:29,111 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:29] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:36:29,131 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:36:29,132 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:29] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:36:29,160 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:36:29,162 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:29] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:36:29,206 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:36:29,207 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:29] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:36:29,320 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:36:29,321 - INFO - 127.0.0.1 - - [21/Nov/2024 10:36:29] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:28,506 - INFO -  * Detected change in 'E:\\Ecometer_backend\\EcometerProject\\main.py', reloading
+2024-11-21 10:38:28,756 - INFO -  * Restarting with stat
+2024-11-21 10:38:31,349 - INFO - Model loaded successfully
+2024-11-21 10:38:31,378 - WARNING -  * Debugger is active!
+2024-11-21 10:38:31,383 - INFO -  * Debugger PIN: 122-947-721
+2024-11-21 10:38:42,436 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:42] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 10:38:42,448 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:42,449 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:42] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:42,461 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:42,461 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:42] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:42,486 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:42,488 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:42] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:42,505 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:42,506 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:42] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:42,528 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:42,529 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:42] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:42,584 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:42,585 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:42] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:42,629 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:42,630 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:42] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:42,731 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:42,732 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:42] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:42,801 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:42,802 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:42] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:42,888 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:42,889 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:42] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:42,920 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:42,921 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:42] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:42,941 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:42,942 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:42] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:42,959 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:42,959 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:42] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:42,977 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:42,978 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:42] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:42,996 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:42,997 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:42] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:43,028 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:43,029 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:43] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:43,059 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:43,060 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:43] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:43,088 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:43,089 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:43] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:43,119 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:43,120 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:43] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:38:43,159 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:38:43,159 - INFO - 127.0.0.1 - - [21/Nov/2024 10:38:43] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:39:08,217 - INFO - 127.0.0.1 - - [21/Nov/2024 10:39:08] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 10:39:08,223 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:39:08,224 - INFO - 127.0.0.1 - - [21/Nov/2024 10:39:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:39:08,448 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:39:08,449 - INFO - 127.0.0.1 - - [21/Nov/2024 10:39:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:39:08,468 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:39:08,470 - INFO - 127.0.0.1 - - [21/Nov/2024 10:39:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:39:08,528 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:39:08,529 - INFO - 127.0.0.1 - - [21/Nov/2024 10:39:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:39:08,547 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:39:08,548 - INFO - 127.0.0.1 - - [21/Nov/2024 10:39:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:39:08,571 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:39:08,572 - INFO - 127.0.0.1 - - [21/Nov/2024 10:39:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:39:08,590 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:39:08,593 - INFO - 127.0.0.1 - - [21/Nov/2024 10:39:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:39:08,609 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:39:08,610 - INFO - 127.0.0.1 - - [21/Nov/2024 10:39:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 10:39:08,656 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 10:39:08,657 - INFO - 127.0.0.1 - - [21/Nov/2024 10:39:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,457 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,461 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,462 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,478 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,489 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,498 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,506 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,513 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,518 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,611 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 11:30:08,612 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 11:30:08,614 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 11:30:08,618 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,619 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 11:30:08,632 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,625 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,632 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 11:30:08,622 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,638 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 11:30:08,641 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,650 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,650 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 11:30:08,664 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 11:30:08,667 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 11:30:08,668 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,671 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,672 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,673 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 11:30:08,694 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,696 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 11:30:08,698 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 11:30:08,699 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 11:30:08,701 - INFO - 127.0.0.1 - - [21/Nov/2024 11:30:08] "POST /predict HTTP/1.1" 200 -
+2024-11-21 11:32:28,386 - INFO - 127.0.0.1 - - [21/Nov/2024 11:32:28] "OPTIONS /predict HTTP/1.1" 200 -
+2024-11-21 11:32:28,397 - INFO - Prediction successful: {'Predicted CO2 Levels (PPM)': 349.06, 'status': 'success'}
+2024-11-21 11:32:28,398 - INFO - 127.0.0.1 - - [21/Nov/2024 11:32:28] "POST /predict HTTP/1.1" 200 -
+2024-11-21 13:17:38,511 - INFO -  * Detected change in 'E:\\Ecometer_backend\\EcometerProject\\main.py', reloading
+2024-11-21 13:17:39,672 - INFO -  * Restarting with stat
