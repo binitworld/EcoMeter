@@ -16,29 +16,32 @@ jobs:
       - name: Check out code  
         uses: actions/checkout@v2  
 
- 
       - name: Set up Python  
         uses: actions/setup-python@v2  
         with:  
           python-version: '3.8'   
 
       - name: Install backend dependencies  
+       The log shows the job is failing during the installation of run: |  
+          python -m venv venv
+          source dependencies from `requirements.txt`. The `ci-cd venv/bin/activate
+          pip install -r requirements.txt  # Make sure you have a requirements.txt file-pipeline.yml` and `requirements.txt` files seem to be in the root  
+
+      - name: Run backend tests correctly configured. Here are a few suggestions to  
         run: |  
-          cd ${GITHUB_WORKSPACE}  
-          pip install -r requirements.txt  # Make sure you have a requirements.txt file in the root  
+          source venv/bin/activate
+          pytest  # Adjust if you have a different resolve the issue:
 
-      # - name: Run backend tests  
-      #   run: |  
-      #     cd ${GITHUB_WORKSPACE}  
-      #     pytest  # Adjust if you have a different test framework  
-
+1. Ensure all dependencies listed test framework  
 
       - name: Set up Node.js  
-        uses: actions/setup-node@v2  
-        with:  
+ in `requirements.txt` are compatible with each other        uses: actions/setup-node@v2  
+        with:.
+2. Verify that the `requirements.txt` file contains  
           node-version: '16'  
 
-      - name: Install frontend dependencies  
+      - name: the correct versions of the dependencies.
+ Install frontend dependencies  
         run: |  
           cd frontend  
           npm install  # Adjust if you have a different command  
@@ -46,6 +49,4 @@ jobs:
       - name: Run frontend tests  
         run: |  
           cd frontend  
-          npm test  # Adjust if you have a different test command  
-
-      
+3. Update the `actions/setup-python@v2` to the latest version          npm test  # Adjust if you have a different test command
