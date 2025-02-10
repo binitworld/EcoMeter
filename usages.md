@@ -12,7 +12,7 @@
 
 ## 🚀 Quick Start Guide
 
-<img src="/api/placeholder/800/200" alt="EcoMeter Banner" />
+<img src="banner.png" alt="EcoMeter Banner" />
 
 ### 📋 Prerequisites
 
