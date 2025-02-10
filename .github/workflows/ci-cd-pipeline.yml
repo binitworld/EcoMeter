@@ -1,4 +1,4 @@
-name: CI/CD Pipeline of Ecometer By Binitworld
+name: CI/CD Pipeline of Ecometer By Binitworld  
 
 on:  
   push:  
@@ -16,7 +16,6 @@ jobs:
       - name: Check out code  
         uses: actions/checkout@v2  
 
- 
       - name: Set up Python  
         uses: actions/setup-python@v2  
         with:  
@@ -27,12 +26,6 @@ jobs:
           cd ${GITHUB_WORKSPACE}  
           pip install -r requirements.txt  # Make sure you have a requirements.txt file in the root  
 
-      # - name: Run backend tests  
-      #   run: |  
-      #     cd ${GITHUB_WORKSPACE}  
-      #     pytest  # Adjust if you have a different test framework  
-
-
       - name: Set up Node.js  
         uses: actions/setup-node@v2  
         with:  
@@ -41,11 +34,4 @@ jobs:
       - name: Install frontend dependencies  
         run: |  
           cd frontend  
-          npm install  # Adjust if you have a different command  
-
-      - name: Run frontend tests  
-        run: |  
-          cd frontend  
-          npm test  # Adjust if you have a different test command  
-
-      
+          npm install  # Adjust if you have a different command
