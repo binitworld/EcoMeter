@@ -1,0 +1,51 @@
+name: CI/CD Pipeline of Ecometer By Binitworld
+
+on:  
+  push:  
+    branches:  
+      - main   
+  pull_request:  
+    branches:  
+      - main   
+
+jobs:  
+  build:  
+    runs-on: ubuntu-latest  
+
+    steps:  
+      - name: Check out code  
+        uses: actions/checkout@v2  
+
+ 
+      - name: Set up Python  
+        uses: actions/setup-python@v2  
+        with:  
+          python-version: '3.8'   
+
+      - name: Install backend dependencies  
+        run: |  
+          cd ${GITHUB_WORKSPACE}  
+          pip install -r requirements.txt  # Make sure you have a requirements.txt file in the root  
+
+      - name: Run backend tests  
+        run: |  
+          cd ${GITHUB_WORKSPACE}  
+          pytest  # Adjust if you have a different test framework  
+
+
+      - name: Set up Node.js  
+        uses: actions/setup-node@v2  
+        with:  
+          node-version: '16'  
+
+      - name: Install frontend dependencies  
+        run: |  
+          cd frontend  
+          npm install  # Adjust if you have a different command  
+
+      - name: Run frontend tests  
+        run: |  
+          cd frontend  
+          npm test  # Adjust if you have a different test command  
+
+      
