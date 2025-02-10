@@ -8,5 +8,4 @@ flask-cors==3.0.10  # For handling CORS
 jupyter==1.0.0  
 matplotlib==3.6.2  
 seaborn==0.12.1
-# Testing  
-pytest==7.1.2  
+# 
